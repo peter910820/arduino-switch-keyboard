@@ -12,3 +12,4 @@ while True:
         data = ser.readline().decode().strip()
         if data == "enter":
             keyboard.press(Key.enter)
+            keyboard.release(Key.enter)
